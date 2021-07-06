@@ -2,6 +2,43 @@ body{
   font-family: 'PT Serif', serif;
   margin: 0;
 }
+.container{
+  display: flex;
+  background-color: #06bace;
+}
+.logodiv{
+  width: 200px;
+  height: 63px;
+}
+.logoimg{
+  width: 90%;
+  height: 100%;
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #0a0101;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 30px ;
+  margin: 0 3px;
+  border: #676767 solid 2px;
+}
+
+.topnav a:hover {
+  background-color: rgb(117, 91, 177);
+  color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+  background-color: #6ada66;
+  color: white;
+}
 .imagine-para{
   text-align: justify;
   font-weight: 500;
